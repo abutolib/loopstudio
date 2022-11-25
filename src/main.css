@@ -606,10 +606,6 @@ video {
   width: 10rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .max-w-screen-lg {
   max-width: 1024px;
 }
@@ -679,39 +675,7 @@ video {
 }
 
 .bg-hero-bg {
-  background-image: url('../images/header-bg.jpg');
-}
-
-.bg-item1 {
-  background-image: url("../images/earth.png");
-}
-
-.bg-item2 {
-  background-image: url("../images/night.png");
-}
-
-.bg-item3 {
-  background-image: url("../images/soccer.png");
-}
-
-.bg-item4 {
-  background-image: url("../images/car.png");
-}
-
-.bg-item5 {
-  background-image: url("../images/vr.png");
-}
-
-.bg-item6 {
-  background-image: url("../images/pocket.png");
-}
-
-.bg-item7 {
-  background-image: url("../images/kosmos.jpg");
-}
-
-.bg-item8 {
-  background-image: url("../images/fisheye.jpg");
+  background-image: url('./images/header-bg.jpg');
 }
 
 .bg-center {
@@ -762,48 +726,12 @@ video {
   padding-top: 6rem;
 }
 
-.pt-354 {
-  padding-top: 354px;
-}
-
-.pr-110 {
-  padding-right: 110px;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
-}
-
-.pr-44 {
-  padding-right: 11rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
 .text-left {
   text-align: left;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .font-body {
@@ -919,35 +847,35 @@ video {
   }
 
   .tel\:bg-item11 {
-    background-image: url("../images/item11.jpg");
+    background-image: url("./images/item11.jpg");
   }
 
   .tel\:bg-item12 {
-    background-image: url("../images/item12.jpg");
+    background-image: url("./images/item12.jpg");
   }
 
   .tel\:bg-item13 {
-    background-image: url("../images/item13.jpg");
+    background-image: url("./images/item13.jpg");
   }
 
   .tel\:bg-item14 {
-    background-image: url("../images/item14.jpg");
+    background-image: url("./images/item14.jpg");
   }
 
   .tel\:bg-item15 {
-    background-image: url("../images/item15.jpg");
+    background-image: url("./images/item15.jpg");
   }
 
   .tel\:bg-item16 {
-    background-image: url("../images/item16.jpg");
+    background-image: url("./images/item16.jpg");
   }
 
   .tel\:bg-item17 {
-    background-image: url("../images/item17.jpg");
+    background-image: url("./images/item17.jpg");
   }
 
   .tel\:bg-item18 {
-    background-image: url("../images/item18.jpg");
+    background-image: url("./images/item18.jpg");
   }
 
   .tel\:py-2 {
@@ -972,16 +900,12 @@ video {
     padding-right: 11rem;
   }
 
-  .tel\:pt-5 {
-    padding-top: 1.25rem;
+  .tel\:pb-5 {
+    padding-bottom: 1.25rem;
   }
 
   .tel\:pl-5 {
     padding-left: 1.25rem;
-  }
-
-  .tel\:pb-5 {
-    padding-bottom: 1.25rem;
   }
 
   .tel\:text-center {
@@ -1033,39 +957,35 @@ video {
   }
 
   .sm\:bg-item1 {
-    background-image: url("../images/earth.png");
+    background-image: url("./images/earth.png");
   }
 
   .sm\:bg-item2 {
-    background-image: url("../images/night.png");
+    background-image: url("./images/night.png");
   }
 
   .sm\:bg-item3 {
-    background-image: url("../images/soccer.png");
+    background-image: url("./images/soccer.png");
   }
 
   .sm\:bg-item4 {
-    background-image: url("../images/car.png");
+    background-image: url("./images/car.png");
   }
 
   .sm\:bg-item5 {
-    background-image: url("../images/vr.png");
+    background-image: url("./images/vr.png");
   }
 
   .sm\:bg-item6 {
-    background-image: url("../images/pocket.png");
+    background-image: url("./images/pocket.png");
   }
 
   .sm\:bg-item7 {
-    background-image: url("../images/kosmos.jpg");
+    background-image: url("./images/kosmos.jpg");
   }
 
   .sm\:bg-item8 {
-    background-image: url("../images/fisheye.jpg");
-  }
-
-  .sm\:bg-no-repeat {
-    background-repeat: no-repeat;
+    background-image: url("./images/fisheye.jpg");
   }
 
   .sm\:p-3 {
@@ -1086,14 +1006,6 @@ video {
     padding-left: 0px;
   }
 
-  .sm\:pl-6 {
-    padding-left: 1.5rem;
-  }
-
-  .sm\:pr-0 {
-    padding-right: 0px;
-  }
-
   .sm\:pt-354 {
     padding-top: 354px;
   }
@@ -1112,10 +1024,6 @@ video {
 
   .sm\:text-center {
     text-align: center;
-  }
-
-  .sm\:first-letter\:pr-110::first-letter {
-    padding-right: 110px;
   }
 }
 
